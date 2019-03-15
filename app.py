@@ -1,5 +1,6 @@
 from flask import Flask
 from flask import *
+import disease
 
 app = Flask(__name__)
 
@@ -14,11 +15,13 @@ def results():
     action = req.get('queryResult').get('action')
     intent_name = req.get('queryResult').get('intent').get('displayName')
     last_intent= intent_name
-    return {'fulfillmentText' : "message"}
+    if intent_name == "iswell":
+        message = disease.symptoms(req)
+    return {'fulfillmentText' : message}
 
 @app.route('/paleo',methods=['POST'])
 def paleo():
     return make_response(jsonify(results()))
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
