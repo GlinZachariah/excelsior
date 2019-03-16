@@ -1,14 +1,19 @@
+import pandas as pd
+
 def prescribe(disease):
-    import pandas as pd
-    remedy =[]
-    medicine=[]
+    remedy = []
+    medicine = []
     df = pd.read_csv('deseaseremedies.csv', engine='python')
     for row in df.values:
-        if row[0].lower()==disease:
+        if row[0].lower() == disease:
             remedy.append(row[1])
             medicine.append(row[2])
-    print(remedy)
-    print(medicine)
+    while '-' in medicine:
+        medicine.remove('-')
+    print (remedy)
+    print (medicine[0])
+    return medicine[0]
 
 
-prescribe('chickenpox')
+# todo pass automatically
+prescribe('migraine')  # input must be lower case
