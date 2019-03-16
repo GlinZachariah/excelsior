@@ -1,0 +1,35 @@
+{
+  "id": "7109d8e1-94e3-4b0e-a458-b4aa709b031e",
+  "name": "thirsty - yes",
+  "auto": true,
+  "contexts": [
+    "isthirsty"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "frequentpee",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you feel urge for urination frequently?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

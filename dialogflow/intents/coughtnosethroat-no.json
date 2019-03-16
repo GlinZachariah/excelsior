@@ -1,0 +1,35 @@
+{
+  "id": "565815a2-7fb9-4b68-8044-52cdfe220b3f",
+  "name": "coughtnosethroat-no",
+  "auto": true,
+  "contexts": [
+    "nosethroat"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "skinrashbump",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Oh...Do you have any skin rashes or bumps ?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

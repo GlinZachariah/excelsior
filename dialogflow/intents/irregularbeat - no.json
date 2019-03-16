@@ -1,0 +1,35 @@
+{
+  "id": "fb0ed277-ea45-4fa8-9d3d-f4751df8d8fc",
+  "name": "irregularbeat - no",
+  "auto": true,
+  "contexts": [
+    "isregularheartbeat"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "islighthead",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

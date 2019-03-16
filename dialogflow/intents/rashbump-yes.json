@@ -1,0 +1,35 @@
+{
+  "id": "c3bf017b-de6d-4763-9f49-8b6729ecc44a",
+  "name": "rashbump-yes",
+  "auto": true,
+  "contexts": [
+    "skinrashbump"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "chickenpox",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have any red or pink bump and fluid blister on your body?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

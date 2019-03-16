@@ -1,0 +1,35 @@
+{
+  "id": "c1237fe5-88c6-4dcf-beb6-90fec52da76f",
+  "name": "lighthead-yes",
+  "auto": true,
+  "contexts": [
+    "islighthead"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "prescribe",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Looks like you have migraine."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

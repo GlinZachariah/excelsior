@@ -1,0 +1,35 @@
+{
+  "id": "643f049b-f9bd-4e80-9f0b-29f9e9215faa",
+  "name": "headache severe",
+  "auto": true,
+  "contexts": [
+    "headache-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "haschestpain",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Hmm...Did you have chest pain recently?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

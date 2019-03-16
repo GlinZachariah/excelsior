@@ -1,0 +1,35 @@
+{
+  "id": "2ff545dd-ed90-4257-b8a7-5bb99284bb64",
+  "name": "rashbump-no",
+  "auto": true,
+  "contexts": [
+    "skinrashbump"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "diarrhea",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have Diarrhea?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

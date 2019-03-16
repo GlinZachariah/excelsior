@@ -1,0 +1,39 @@
+{
+  "id": "65522f78-5662-4fbd-ad5b-aabd5977635c",
+  "parentId": "2d503da7-56e6-48de-ba41-f2f3e4b2a377",
+  "rootParentId": "2d503da7-56e6-48de-ba41-f2f3e4b2a377",
+  "name": "checkheadache - no",
+  "auto": true,
+  "contexts": [
+    "checkheadache-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checkheadache.checkheadache-no",
+      "affectedContexts": [
+        {
+          "name": "isthirsty",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you feel thirsty?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531859391,
+  "fallbackIntent": false,
+  "events": []
+}

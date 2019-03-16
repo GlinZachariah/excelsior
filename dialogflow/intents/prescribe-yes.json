@@ -1,0 +1,29 @@
+{
+  "id": "b6f7bace-858a-4c84-9bf2-bd5a25ca9680",
+  "name": "prescribe-yes",
+  "auto": true,
+  "contexts": [
+    "prescribe"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

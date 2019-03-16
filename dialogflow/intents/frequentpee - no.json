@@ -1,0 +1,35 @@
+{
+  "id": "fe0e816b-93f3-4868-ba8f-51008c527a94",
+  "name": "frequentpee - no",
+  "auto": true,
+  "contexts": [
+    "frequentpee"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "isregularheartbeat",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have irregular heartbeat?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

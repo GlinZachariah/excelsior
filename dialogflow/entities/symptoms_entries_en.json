@@ -1,0 +1,31 @@
+[
+  {
+    "value": "fever",
+    "synonyms": [
+      "fever"
+    ]
+  },
+  {
+    "value": "cough",
+    "synonyms": [
+      "cough",
+      "coughness",
+      "coughing"
+    ]
+  },
+  {
+    "value": "skin rashes",
+    "synonyms": [
+      "skin rashes",
+      "skin rash",
+      "skin disease"
+    ]
+  },
+  {
+    "value": "headache",
+    "synonyms": [
+      "headache",
+      "head pain"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "id": "d815ac7b-6023-4aa8-8c66-a7e8568a555b",
+  "name": "diarrhea-yes",
+  "auto": true,
+  "contexts": [
+    "diarrhea"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "shiver",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Are you having any shivering with chill?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

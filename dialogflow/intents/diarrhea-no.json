@@ -1,0 +1,29 @@
+{
+  "id": "ec6b323a-655d-431f-b4d0-cd7d84855960",
+  "name": "diarrhea-no",
+  "auto": true,
+  "contexts": [
+    "diarrhea"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I see....then it\u0027s just a normal fever."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

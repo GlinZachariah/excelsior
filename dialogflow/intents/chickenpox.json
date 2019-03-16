@@ -1,0 +1,35 @@
+{
+  "id": "b62a95cc-4b04-45e7-8f4f-5a373c4d42e7",
+  "name": "chickenpox",
+  "auto": true,
+  "contexts": [
+    "chickenpox"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "prescribe",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Oh...you have chickenpox. Do you want to suggest remedies?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

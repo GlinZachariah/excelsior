@@ -1,0 +1,35 @@
+{
+  "id": "a554869e-6bc4-4faf-890c-f59aa37c7402",
+  "name": "haschestpain - yes",
+  "auto": true,
+  "contexts": [
+    "haschestpain"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "isregularheartbeat",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have irregular heart beat?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

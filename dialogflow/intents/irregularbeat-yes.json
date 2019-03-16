@@ -1,0 +1,35 @@
+{
+  "id": "33e30e5d-e5a4-4d5b-b770-b02a6717dc03",
+  "name": "irregularbeat-yes",
+  "auto": true,
+  "contexts": [
+    "isregularheartbeat"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "prescribe",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You have high blood pressure."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

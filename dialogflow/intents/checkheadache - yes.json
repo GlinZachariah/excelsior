@@ -1,0 +1,54 @@
+{
+  "id": "43e1669e-ac66-44fa-8f67-b7c9473b94ca",
+  "parentId": "2d503da7-56e6-48de-ba41-f2f3e4b2a377",
+  "rootParentId": "2d503da7-56e6-48de-ba41-f2f3e4b2a377",
+  "name": "checkheadache - yes",
+  "auto": true,
+  "contexts": [
+    "checkheadache-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checkheadache.checkheadache-yes",
+      "affectedContexts": [
+        {
+          "name": "headache-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Sudden"
+            },
+            {
+              "title": "Gradual"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "How did the headache feel ?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531867231,
+  "fallbackIntent": false,
+  "events": []
+}

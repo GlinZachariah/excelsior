@@ -1,0 +1,37 @@
+{
+  "id": "e6f0c7da-84e9-4d69-93c3-b4b48cf2e030",
+  "name": "headachetwo - no",
+  "auto": true,
+  "contexts": [
+    "headachetwo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "nopeecontrol",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have uncontrolled bladder?(yes for controlled, no for uncontrolled)"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

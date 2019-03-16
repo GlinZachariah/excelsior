@@ -1,0 +1,35 @@
+{
+  "id": "0b5de9cd-0f96-4409-ab13-1a438de337b5",
+  "name": "tired-yes",
+  "auto": true,
+  "contexts": [
+    "tired"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "skinrashbump",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have any rashes or bumps on your skin?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

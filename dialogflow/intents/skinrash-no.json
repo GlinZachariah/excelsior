@@ -1,0 +1,29 @@
+{
+  "id": "a9ae2b54-28c0-440e-b279-d01cfcf888da",
+  "name": "skinrash-no",
+  "auto": true,
+  "contexts": [
+    "skinproblem"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You have a Cold."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

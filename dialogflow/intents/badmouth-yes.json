@@ -1,0 +1,35 @@
+{
+  "id": "3ce302d9-f1ac-4c8f-8172-6909302fff0a",
+  "name": "badmouth-yes",
+  "auto": true,
+  "contexts": [
+    "badmouth"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "prescribe",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You have Hyperglycemia(High sugar level)."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

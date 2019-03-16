@@ -1,0 +1,29 @@
+{
+  "id": "83a4a2f6-0f06-47bd-9fee-64c931a819bc",
+  "name": "lighthead - no",
+  "auto": true,
+  "contexts": [
+    "islighthead"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You might have a normal headache."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

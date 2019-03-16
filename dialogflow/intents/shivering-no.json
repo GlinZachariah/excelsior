@@ -1,0 +1,29 @@
+{
+  "id": "0139eeaf-8f94-4ca3-8b1a-45d60e0f9ac9",
+  "name": "shivering-no",
+  "auto": true,
+  "contexts": [
+    "shiver"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Then, you have a fever."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

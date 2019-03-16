@@ -1,0 +1,35 @@
+{
+  "id": "e3217f72-e793-4ed5-99a7-ca45d5d877ea",
+  "name": "nopeecontrol-yescontrol",
+  "auto": true,
+  "contexts": [
+    "nopeecontrol"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "nosethroat",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have dry cough or runny nose, or sore throat?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

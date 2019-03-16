@@ -1,0 +1,35 @@
+{
+  "id": "ae8c1dc1-fbdf-4a50-93fa-9c7dfa13a593",
+  "name": "nopeecontrol-nocontrol",
+  "auto": true,
+  "contexts": [
+    "nopeecontrol"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "swallowprob",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you difficulty while swallowing food or bloating after eating?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "57892261-77aa-4abc-b859-291de52e6edc",
+  "name": "okay",
+  "auto": true,
+  "contexts": [
+    "iswell"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay. Have a nice day"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -5,13 +5,11 @@
   "disableStackdriverLogs": true,
   "googleAssistant": {
     "googleAssistantCompatible": true,
-    "project": "palio-f75e1",
+    "project": "paleo-beccc",
     "welcomeIntentSignInRequired": false,
     "startIntents": [],
     "systemIntents": [],
-    "endIntentIds": [
-      "7d642bd8-e8c6-4fda-87eb-be1745f99523"
-    ],
+    "endIntentIds": [],
     "oAuthLinking": {
       "required": false,
       "grantType": "AUTH_CODE_GRANT"
@@ -23,7 +21,7 @@
   },
   "defaultTimezone": "Asia/Almaty",
   "webhook": {
-    "url": "https://e07284ef.ngrok.io/paleo",
+    "url": "https://c643b1ee.ngrok.io/paleo",
     "headers": {
       "": ""
     },

@@ -1,0 +1,23 @@
+[
+  {
+    "value": "mild",
+    "synonyms": [
+      "mild",
+      "low"
+    ]
+  },
+  {
+    "value": "medium",
+    "synonyms": [
+      "medium",
+      "moderate"
+    ]
+  },
+  {
+    "value": "high",
+    "synonyms": [
+      "high",
+      "maximum"
+    ]
+  }
+]

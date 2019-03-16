@@ -1,0 +1,35 @@
+{
+  "id": "4951434b-196a-4add-a14d-b9516eb33aa7",
+  "name": "swallowproblem-no",
+  "auto": true,
+  "contexts": [
+    "swallowprob"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "nosethroat",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do you have dry cough or runny nose, or sore throat?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

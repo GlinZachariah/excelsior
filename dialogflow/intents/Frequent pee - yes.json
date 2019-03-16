@@ -1,0 +1,35 @@
+{
+  "id": "7c90d72f-de20-4606-ab95-945d9423d697",
+  "name": "Frequent pee - yes",
+  "auto": true,
+  "contexts": [
+    "frequentpee"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "badmouth",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Does your mouth smell bad and dried?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
