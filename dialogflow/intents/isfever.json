@@ -1,0 +1,63 @@
+{
+  "id": "70ef0c2d-4865-4a4c-800b-5f36cce25bbb",
+  "name": "isfever",
+  "auto": true,
+  "contexts": [
+    "fever"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "isfever-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ee1a43b3-8b92-4602-962d-887fd43738d4",
+          "required": true,
+          "dataType": "@response",
+          "name": "response",
+          "value": "$response",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Yes"
+            },
+            {
+              "title": "No"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Do you feeling any fever?",
+            "Feeling feverish?",
+            "Are you feeling feverish?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

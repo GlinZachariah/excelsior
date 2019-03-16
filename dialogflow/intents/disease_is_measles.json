@@ -1,0 +1,37 @@
+{
+  "id": "767275b4-85fa-4207-8f50-50779419121b",
+  "name": "disease_is_measles",
+  "auto": true,
+  "contexts": [
+    "skin_or_rashes"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "83e3b1dd-de25-411c-9bad-c8f1d7a951b0",
+          "dataType": "@response",
+          "name": "response",
+          "value": "$response",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "After analysing the above symptoms you mentioned, we understood that, you are suffering from Measles"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

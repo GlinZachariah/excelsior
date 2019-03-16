@@ -1,0 +1,101 @@
+[
+  {
+    "id": "52511447-653b-467e-9fbf-65e352759bcf",
+    "data": [
+      {
+        "text": "i feel tired",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9b867220-86e9-481a-8bcb-047b651759a7",
+    "data": [
+      {
+        "text": "i feel sick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e759377a-12c5-4be3-be9f-ba5b31123a84",
+    "data": [
+      {
+        "text": "I am not feeling good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "972efe86-606c-472a-8d5e-95a0b9f2f281",
+    "data": [
+      {
+        "text": "feeling sick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a178dc17-e1b2-4465-aba9-01663bbe75b4",
+    "data": [
+      {
+        "text": "feeling bad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "57418652-1d20-4dcf-aa23-cf1caa8ac889",
+    "data": [
+      {
+        "text": "not well",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "45055cdf-ae98-4839-b0d3-e56f3c4facaf",
+    "data": [
+      {
+        "text": "I don\u0027t feel so good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6517fb90-f5c8-46c8-8acf-e38a69d64615",
+    "data": [
+      {
+        "text": "I\u0027m not feeling well",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f6ffbb26-071d-4358-ab75-16831db7900c",
+    "data": [
+      {
+        "text": "I\u0027m not feeling so good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

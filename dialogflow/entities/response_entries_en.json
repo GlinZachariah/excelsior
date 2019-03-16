@@ -1,0 +1,22 @@
+[
+  {
+    "value": "yes",
+    "synonyms": [
+      "yes",
+      "yeah",
+      "alrght",
+      "good",
+      "fine",
+      "better"
+    ]
+  },
+  {
+    "value": "no",
+    "synonyms": [
+      "no",
+      "not good",
+      "bad",
+      "not fine"
+    ]
+  }
+]

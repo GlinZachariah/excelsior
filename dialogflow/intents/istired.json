@@ -1,0 +1,50 @@
+{
+  "id": "a1266108-9500-4973-ba79-e98b0f680025",
+  "name": "istired",
+  "auto": true,
+  "contexts": [
+    "less_appetite"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "istired-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "image": {
+            "url": "https://hemtecks.files.wordpress.com/2014/10/screen-shot-2014-12-19-at-12-50-06-am.png",
+            "accessibilityText": "Any skin rash like these?"
+          },
+          "buttons": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Alright...do you have any skin bumps like these?",
+            "I see...do you have any skin bumps like these?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

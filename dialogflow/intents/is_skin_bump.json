@@ -1,0 +1,36 @@
+{
+  "id": "2af3533a-0be1-412d-b46b-4fec36c14eb4",
+  "name": "is_skin_bump",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cdb210bc-f9cf-43f9-8aac-7f47290d9299",
+          "required": false,
+          "dataType": "@response",
+          "name": "response",
+          "value": "$response",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Alright...from all these information, what I understood is you are suffering from Chicken pox"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

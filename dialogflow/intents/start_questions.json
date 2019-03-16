@@ -1,0 +1,33 @@
+{
+  "id": "3a44d224-249f-4cf4-93f5-99463d3699c7",
+  "name": "start_questions",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup",
+    "welcome_intent"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I am sorry to hear that. Let me ask you couple questions.",
+            "Sorry to hear that. Let me ask some questions."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

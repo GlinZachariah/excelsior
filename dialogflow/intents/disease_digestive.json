@@ -1,0 +1,35 @@
+{
+  "id": "f336bf99-4857-459d-b2a1-10f62bc2653a",
+  "name": "disease_digestive",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "74fa3183-1322-41a4-9123-c0a25e89eb0b",
+          "dataType": "@response",
+          "name": "response",
+          "value": "$response",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "From the symptoms provided, we have understood that you are suffering from some digestive disease"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

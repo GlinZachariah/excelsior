@@ -1,0 +1,33 @@
+{
+  "id": "7d642bd8-e8c6-4fda-87eb-be1745f99523",
+  "parentId": "aa53ab3c-c742-457e-951d-e047f221f8e7",
+  "rootParentId": "aa53ab3c-c742-457e-951d-e047f221f8e7",
+  "name": "welcome-intent - yes",
+  "auto": true,
+  "contexts": [
+    "welcome-intent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "welcome-intent.welcome-intent-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great. Good to know that!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531867231,
+  "fallbackIntent": false,
+  "events": []
+}

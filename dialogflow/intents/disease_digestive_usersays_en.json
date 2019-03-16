@@ -1,0 +1,28 @@
+[
+  {
+    "id": "058b26e1-00cc-4327-bc0b-9cfc8b0f2345",
+    "data": [
+      {
+        "text": "Yes",
+        "alias": "response",
+        "meta": "@response",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "95a2884a-7050-4647-8b24-2711c49a79cc",
+    "data": [
+      {
+        "text": "Yeah",
+        "alias": "response",
+        "meta": "@response",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "e290992e-9759-40c8-9c13-01a7aa379ac9",
+  "name": "iswell",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "65d824e6-bdd6-4446-8f0a-a16a1364dfdf",
+          "required": false,
+          "dataType": "@response",
+          "name": "response",
+          "value": "$response",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

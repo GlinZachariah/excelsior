@@ -1,0 +1,14 @@
+[
+  {
+    "value": "age",
+    "synonyms": [
+      "age"
+    ]
+  },
+  {
+    "value": "name",
+    "synonyms": [
+      "name"
+    ]
+  }
+]

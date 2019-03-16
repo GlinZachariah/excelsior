@@ -1,0 +1,39 @@
+{
+  "id": "9895461b-40d8-4b7f-bc11-61d1574763d6",
+  "parentId": "aa53ab3c-c742-457e-951d-e047f221f8e7",
+  "rootParentId": "aa53ab3c-c742-457e-951d-e047f221f8e7",
+  "name": "welcome-intent - no",
+  "auto": true,
+  "contexts": [
+    "welcome-intent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "welcome-intent.welcome-intent-no",
+      "affectedContexts": [
+        {
+          "name": "fever",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Are you having Fever?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531859391,
+  "fallbackIntent": false,
+  "events": []
+}
